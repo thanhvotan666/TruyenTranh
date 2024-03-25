@@ -1,0 +1,142 @@
+body{
+    color: white;
+    background-color: rgb(53, 44, 36);
+    margin: 0;
+    width: clamp(1000px,100%,100vw);
+    justify-content: center;
+}  
+.header{
+    height: 100px;
+    display: block;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.header div{
+    display: flex;
+    align-items: center;
+}
+.header a{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.h1{
+    flex:1;
+    margin-left: 50px;
+    justify-content: left;
+}
+.h2{
+    flex:10;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px red;
+}
+.h3{
+    margin-right: 10px;
+    flex:1;
+    justify-content: center;
+}
+.h4{
+    margin-right: 20px;
+    flex:1;
+    justify-content: center;
+}
+.icon{
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+.dn{
+    font-weight: bolder;
+    color:aquamarine;
+}
+.theloai{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+.tags{
+    display: grid;
+    margin: 30px;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.tags img{
+    width: 50px;
+}
+.tags input{
+    width: 100px;
+    height: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color:aqua;
+    font-weight: bold;
+}
+.motatheloai{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+body table{
+    width: 1000px;
+}
+.main{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.trai{
+    width: 700px;
+    border-radius: 20px;
+}
+.anhchinh{
+    height: 300px;
+    border-radius: 20px;
+}
+xanhla{
+    color:chartreuse;
+}
+aqua{
+    color:aqua;
+}
+.motatruyen{
+    padding: 50px;
+}
+.phai{
+    width: 250px;
+    height: 100px;
+    margin: 25px;
+    border-radius: 25px;
+}
+.sotop{
+    background-color: aquamarine;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    color: red;
+}
+.tentop{
+    color:chartreuse;
+}
+.timtruyen{
+    margin: 20px;
+}
+.upload{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: chartreuse;
+    box-shadow: 0px 0px 50px green;
+}
